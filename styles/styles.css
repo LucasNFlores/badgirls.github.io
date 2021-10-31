@@ -40,6 +40,12 @@ h1{
     /* margin-bottom: 20vh; */
 }
 
+h1{
+    @media (min-width: 1024px) {
+        margin-bottom: 20vh;
+    } 
+}
+
 h3{
     color: rgb(59, 11, 59);
 }
@@ -85,8 +91,7 @@ main{
 }
 
 .logo{
-    height: 15vh;
-    
+    height: 4vmax;
 }
 
 .sub{
