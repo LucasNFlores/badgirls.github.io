@@ -37,6 +37,7 @@ h1{
     font-size: 8vmax;
     text-align: center;
     font-family: Italianno, titulosOimportantes;
+    /* margin-bottom: 20vh; */
 }
 
 h3{
@@ -81,6 +82,11 @@ main{
 .header_logo img{
     height: 6vh;
     width: 100px;
+}
+
+.logo{
+    height: 15vh;
+    
 }
 
 .sub{
@@ -510,3 +516,6 @@ BORRAR LUEGO DE CORREGIR ESTA PARTE */
     font-size: 20px;
     text-align: left;
 }
+
+/* contacto.html */
+

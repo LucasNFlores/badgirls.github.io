@@ -13,51 +13,67 @@
 </head>
 
 <body>
-
+<!-- en el heade dejar Contacto como la ultima opcion para seleccionar -->
     <!--  header  -->
-    <div class="container-fluid">
-        <header>
-            <div>
-                <div class="header_logo">
-                    <img src="./imagenes/Logo.png" alt="Bad girls">
-                </div>
-                <div class=" justify-content-end">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+    <div class="container-fluid justify-s">
+        <header class="d-flex">
+            <div class="flex-shrink-0 me-auto p-2 bd-highlight">
+                <a href="index.html" class="d-flex "><img src="./imagenes/Logo.png" class="logo" alt=""></a>
             </div>
+            <ul class="d-inline-block flex justify-content-end sub">
+                <li><a href="index.html">Incio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a> </li>
+            </ul>
         </header>
     </div>
 
-    <div class="container-fluid">
-        <h1></h1>
+    <div class="container-fluid mt-5 mb-5">
+        <h1 >Contactanos</h1>
     </div>
 
-    <!-- carrusel de redes sociales -->
+<!-- zona de form -->
 
-    <div class="container-fluid">
-        <div class="owl-carousel">
-            <div>
-                <a href="https://www.facebook.com/login"> <i class="fab fa-facebook-square"></i> Facebook</a>
+    <div class="container-md ">
+        <form>
+            <div class="mt-3 mb-3">
+                <label for="mail" class="form-label">Tu correo electronico</label>
+                <input type="email" class="form-control" id="mail" aria-describedby="emailHelp">
+                <div id="Aviso_email" class="form-text">Tu correo no se compartira con nadie.</div>
             </div>
-            <div>    
-                <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i> Twitter</a>
+            
+            <div class="mb-3">
+                <label for="name" class="form-label">Tu nombre</label>
+                <input type="text" class="form-control" id="nombre">
             </div>
-            <div>
-                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i> Linkedin</a>
+            
+            <select class="form-select mb-4 mt-4" aria-label="consulta">
+                <option selected>Selecciona tu consulta</option>
+                <option value="1">Servicio 1</option>
+                <option value="2">Servicio 2</option>
+                <option value="3">Servicio 3</option>
+            </select>
+
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Describenos tu consulta</label>
+                <textarea class="form-control" id="mensaje" rows="5"></textarea>
             </div>
-            <div>
-                <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram-square"></i> Instagram</a>
-            </div>
-            <div>
-                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i>YouTube</a>
-            </div>
-        </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
+
+
+    <!-- zona iframe -->
+
+    <div class="container mt-8">
+        <h2 class="container-xl content">Tambien puedes visitarnos</h2>
+        <p>Estamos de desde las 8:00 hasta las 15:00</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d526.6932989794625!2d-55.99198716257858!3d-27.370841295563025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457971e30b2a55d%3A0x308ee7d8241c802e!2sPolo%20Tic%20Misiones!5e0!3m2!1sen!2sar!4v1635647912289!5m2!1sen!2sar"  allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 </body>
