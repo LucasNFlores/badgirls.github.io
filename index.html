@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto estetica</title>
-    <link rel="stylesheet" href=".\styles\styles.css">
+    
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href=".\styles\my_styles.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +17,7 @@
 </head>
 <body>
 
+<!-- header zone -->
     <header  class= 'header__container' id="cabecera">
         <div class="header_logo">
             <a href="index.html"><img src=".\imagenes\Logo.png" alt="Logo del Proyecto"></a>
@@ -30,6 +33,7 @@
         </span>
     </header>
 
+<!-- land-section -->
     <section class="fondo">
         <div class="landsection">
             <h1 class="landsection_title">Bad Girls</h1>
@@ -37,49 +41,56 @@
         </div>  
     </section>
 
+<!-- servicios -->
     <main>
         <div class="container__services">
-
             <div class="explain__services">
                 <h2>servicios</h2>
                 <p><em> Porque debe elegirnos: se meciona lo profesional, el cuidado, la calidad de los materiales, etc.</em></p>
             </div>
+        </div>
 
-            <div class="grid__services">
-                <div class="service--principal">
-                    <a href="servicios.html#servicio1">
-                        <img src="./imagenes/relleno.jpg" alt="servicio x">
-                        <h2>servicio 1</h2>
-                    </a>
+        <div class="container xl">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="service--secondary">
-                    <a href="servicios.html#servicio2">
-                        <img src="./imagenes/relleno.jpg" alt="servicio x">
-                        <h2>servicio 2</h2>
-                    </a>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagenes/relleno.jpg" class="d-block w-100" alt="Servicio 1">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5 class="carousel-font">Servicio 1</h5>
+                    </div>
                 </div>
-                <div class="service--three">
-                    <a href="servicios.html#servicio3">
-                        <img src="./imagenes/relleno.jpg" alt="servicio x">
-                        <h2>servicio 3</h2>
-                    </a>
+                <div class="carousel-item">
+                    <img src="./imagenes/relleno.jpg" class="d-block w-100" alt="Servicio 2">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5 class="carousel-font">Servicio 2</h5>>
+                    </div>
                 </div>
-                <div class="service--four">
-                    <a href="servicios.html#servicio4">
-                        <img src="./imagenes/relleno.jpg" alt="servicio x">
-                        <h2>servicio 4</h2>
-                    </a>
+                <div class="carousel-item">
+                    <img src="./imagenes/relleno.jpg" class="d-block w-100" alt="Servicio 3">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5 class="carousel-font">Servicio 3</h5>
+                    </div>
                 </div>
-                <div class="service--five">
-                    <a href="servicios.html#servicio5">
-                        <img src="./imagenes/relleno.jpg" alt="servicio x">
-                        <h2>servicio 5</h2>
-                    </a>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </main>
     
+
+<!-- iframe zone -->
     <section class="container__asi_trabajamos" id="asi_trabajamos">
         <h2 class="subtitules">Asi trabajamos</h2>
         
@@ -90,6 +101,7 @@
         </div>
     </section>
 
+<!-- employes zone -->
     <section class="container__employes">
         <h2>Nuestros empleadxs</h2>
         <div class="employes_column"> 
@@ -111,6 +123,7 @@
         </div>
     </section>
 
+<!-- footer -->
     <footer>
 
         <div class="container__footer">
@@ -144,6 +157,10 @@
             <p>Página creada por<a href="https://www.linkedin.com/in/lucas-nicol%C3%A1s-flores-20b4681b5/"><b>Lucas Flores</b></a></p>
         </div>
     </footer>  
-    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 </body>
+
+<script src="./js/bootstrap.min.js"></script>
 </html>

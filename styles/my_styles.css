@@ -336,6 +336,14 @@ BORRAR LUEGO DE CORREGIR ESTA PARTE */
     background-blend-mode: darken;
 }
 
+/* carousel section */
+
+.carousel-font{
+    font-family: mostery;
+    font-size: 5vh;
+    font-weight: 600;
+    color: #311939;
+}
 
     /* asi trabajamos section */
 
