@@ -113,6 +113,10 @@ header a{
     font-weight: 900;
 }
 
+header a:hover{
+    color: #2f0a4160;
+}
+
 
 /* footer */
 
