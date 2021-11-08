@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bad Girls - Conocenos</title>
+    <title>Bad Girls - Sobre nosotros</title>
     
-    <link rel="stylesheet" href=".\styles\my_styles.css">
+    <link rel="stylesheet" href="./styles/my_styles.css">
     <link rel="stylesheet" href="./styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/4ccb7498e2.js" crossorigin="anonymous"></script>
 </head>
@@ -15,7 +19,7 @@
 
     <header class="header" id="cabecera">
         <div class="header__logo">
-            <a href="index.html"><img src=".\imagenes\Logo.png" alt="Logo del Proyecto" ></a>
+            <a class="header__logo" href="index.html"><img src=".\imagenes\Logo.png" alt="Logo del Proyecto" ></a>
         </div>
         <span>
             <nav>
@@ -28,19 +32,32 @@
         </span>
     </header>
 
-    <h1>Sobre nosotros</h1>
-    <main>
-        <h2>ecologico</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio in placeat ipsam excepturi explicabo, maxime illum eos. Et, tempore. Aliquam voluptatum odio blanditiis molestiae! Possimus culpa ullam facilis voluptatum ut?</p>
-        <img src=".\imagenes\relleno.jpg" alt="relacionada al Valor #1">
+    
+    <main class="nosotros">
+        <h1>Sobre nosotros</h1>
+        
+        <div class="nosotros__historia">
+            <h2>Nuesta historia</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta corporis dolorum iure quaerat dolores magni sequi harum quasi tempora velit cupiditate eum delectus accusantium, quidem animi eos eveniet mollitia assumenda.</p>
+        </div>
 
-        <h2>Productos artesanales</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio in placeat ipsam excepturi explicabo, maxime illum eos. Et, tempore. Aliquam voluptatum odio blanditiis molestiae! Possimus culpa ullam facilis voluptatum ut?</p>
-        <img src=".\imagenes\relleno.jpg" alt="relacionada al Valor #2">
+        <h2>Valores</h2>
+        <div>
+            <h3>ecologico</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio in placeat ipsam excepturi explicabo, maxime illum eos. Et, tempore. Aliquam voluptatum odio blanditiis molestiae! Possimus culpa ullam facilis voluptatum ut?</p>
+            <img src=".\imagenes\relleno.jpg" alt="relacionada al Valor #1">
+        </div>
 
-        <h2>Compra a proveedores locales</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio in placeat ipsam excepturi explicabo, maxime illum eos. Et, tempore. Aliquam voluptatum odio blanditiis molestiae! Possimus culpa ullam facilis voluptatum ut?</p>
-        <img src=".\imagenes\relleno.jpg" alt="relacionada al Valor #3">
+            <h3>Productos artesanales</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio in placeat ipsam excepturi explicabo, maxime illum eos. Et, tempore. Aliquam voluptatum odio blanditiis molestiae! Possimus culpa ullam facilis voluptatum ut?</p>
+            <img src=".\imagenes\relleno.jpg" alt="relacionada al Valor #2">
+
+        <div>
+            <h3>Compra a proveedores locales</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio in placeat ipsam excepturi explicabo, maxime illum eos. Et, tempore. Aliquam voluptatum odio blanditiis molestiae! Possimus culpa ullam facilis voluptatum ut?</p>
+            <img src=".\imagenes\relleno.jpg" alt="relacionada al Valor #3">
+        </div>
+
     </main>
 
     <footer>
@@ -75,6 +92,9 @@
             <hr>
             <p>Página creada por<a href="https://www.linkedin.com/in/lucas-nicol%C3%A1s-flores-20b4681b5/"><b>Lucas Flores</b></a></p>
         </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="./js/bootstrap.min.js"></script>
     </footer>  
 </body>
 </html>
