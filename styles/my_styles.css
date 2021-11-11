@@ -39,11 +39,11 @@ h1{
     /* margin-bottom: 20vh; */
 }
 
-h1{
+/* h1{
     @media (min-width: 1024px) {
         margin-bottom: 20vh;
     } 
-}
+} */
 
 h3{
     color: rgb(59, 11, 59);
@@ -111,6 +111,10 @@ header a{
     color: #2f0a41;
     font-size: 22px;
     font-weight: 900;
+}
+
+header a:hover{
+    color: #2f0a4160;
 }
 
 
@@ -533,3 +537,8 @@ BORRAR LUEGO DE CORREGIR ESTA PARTE */
 
 /* contacto.html */
 
+/* sobre_nosototros.html */
+
+.valor--font{
+    font-family: louisGorge;
+}
