@@ -219,15 +219,15 @@ main .historia__container p {
 
 @media screen and (min-width: 992px) {
   h1 {
+    font-size: 3rem;
     margin-top: 2vh;
     margin-bottom: 15vh;
   }
   .historia__container {
-    margin-top: 5vh;
+    margin-top: 3vh;
   }
   .historia__container h2 {
     font-size: 3rem;
-    margin-top: 2vh;
     margin-bottom: 3vh;
   }
   .historia__container p {
@@ -271,7 +271,7 @@ main .historia__container p {
     font-size: 3rem;
   }
   .historia__container h2 {
-    margin-top: 15vh;
+    margin-top: 7vh;
     font-size: 4.5rem;
     margin-bottom: 7vh;
   }
