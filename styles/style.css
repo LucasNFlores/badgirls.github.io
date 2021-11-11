@@ -163,26 +163,29 @@ footer .box__copyright a {
 main h1 {
   font-family: titulosOimportantes;
   text-align: center;
-  font-size: 5rem;
+  font-size: 4.6rem;
   margin-top: 4vh;
   margin-bottom: 7vh;
 }
 
-.historia__container {
+main .historia__container {
   width: 100%;
   padding-left: 4vw;
   padding-right: 4vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   margin-top: 2vh;
   text-align: center;
+  background-color: #e3c7f0;
 }
 
-.historia__container h2 {
+main .historia__container h2 {
   text-align: center;
   font-family: subtitulos;
   margin-bottom: 3vh;
 }
 
-.historia__container p {
+main .historia__container p {
   color: #7a7a7a;
   text-align: center;
 }
@@ -217,11 +220,14 @@ main h1 {
 @media screen and (min-width: 992px) {
   h1 {
     margin-top: 2vh;
-    margin-bottom: 3vh;
+    margin-bottom: 15vh;
+  }
+  .historia__container {
+    margin-top: 5vh;
   }
   .historia__container h2 {
     font-size: 3rem;
-    margin-top: 5vh;
+    margin-top: 2vh;
     margin-bottom: 3vh;
   }
   .historia__container p {

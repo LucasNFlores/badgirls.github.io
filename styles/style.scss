@@ -6,7 +6,7 @@
 $color-relleno: color #ffffff;
 $color-oscuro: color #311939;
 $color-claro: color #e5d4ed;
-$color-violeta--suave: color #81559b;
+$color-violeta--suave: color #936ea8;
 $color-violet: color #7e3f8f;
 
 body{
@@ -132,26 +132,32 @@ main{
     h1{
         font-family: titulosOimportantes;
         text-align: center;
-        font-size: 5rem;
+        font-size: 4.6rem;
         margin-top: 4vh;
         margin-bottom: 7vh;
     }
 }
 
-.historia__container{
-    width: 100%;
-    padding-left: 4vw;
-    padding-right: 4vw;
-    margin-top: 2vh;
-    text-align: center;
-    h2{
+main{
+    
+    .historia__container{
+        width: 100%;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        margin-top: 2vh;
         text-align: center;
-        font-family: subtitulos;
-        margin-bottom: 3vh;
-    }
-    p{
-        color: #7a7a7a;
-        text-align: center;
+        background-color: #e3c7f0;
+        h2{
+            text-align: center;
+            font-family: subtitulos;
+            margin-bottom: 3vh;
+        }
+        p{
+            color: #7a7a7a;
+            text-align: center;
+        }
     }
 }
 
@@ -183,12 +189,13 @@ main{
 @media screen and (min-width: 992px){
     h1{
         margin-top: 2vh;
-        margin-bottom: 3vh;
+        margin-bottom: 15vh;
     }
     .historia__container{
+        margin-top: 5vh;
         h2{
             font-size: 3rem;
-            margin-top: 5vh;
+            margin-top: 2vh;
             margin-bottom: 3vh;
         }
         p{
