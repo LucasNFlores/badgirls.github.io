@@ -9,35 +9,54 @@
     
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/my_styles.css">
+    <link rel="stylesheet" href="./styles/style.css">
 
     <script src="./js"></script>
     <script src="https://kit.fontawesome.com/4ccb7498e2.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-<!-- en el heade dejar Contacto como la ultima opcion para seleccionar -->
+<body class="contacto"> 
+    
     <!--  header  -->
-    <div class="container-fluid">
-        <header class="d-flex">
-            <div class="flex-shrink-0 me-auto">
-                <a href="index.html" class="d-flex "><img src="./imagenes/Logo.png" class="logo" alt=""></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light violeta">
+        <div class="container-fluid " >
+            <a class="navbar-brand" href="./index.html">Bad Girls</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown d-flex">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">Servicios</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="./servicios.html #servicio1">Servicio 1</a></li>
+                            <li><a class="dropdown-item" href="./servicios.html #servicio2">Servicio 2</a></li>
+                            <li><a class="dropdown-item" href="./servicios.html #servicio3">Servicio 3</a></li>
+                            <li><a class="dropdown-item" href="./servicios.html #servicio4">Servicio 4</a></li>
+                            <li><a class="dropdown-item" href="./servicios.html #servicio5">Servicio 5</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre_nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html" tabindex="-1" >Contacto</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="d-inline-block flex justify-content-end sub">
-                <li><a href="index.html">Incio</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a> </li>
-            </ul>
-        </header>
-    </div>
+        </div>
+    </nav>
 
-    <div class="container-fluid mt-5 mb-5 pb-5 ">
-        <h1 >Contactanos</h1>
+    <div class="container-fluid contacto__titulo">
+        <h1>Contactanos</h1>
     </div>
 
 <!-- zona de form -->
 
-    <div class="container-md ">
+    <div class="container-md contacto__form">
         <form>
             <div class="mt-3 mb-3">
                 <label for="mail" class="form-label">Tu correo electronico</label>
@@ -72,7 +91,7 @@
     <div class="container text-center">
         <h2 class="container-xl">Tambien puedes visitarnos</h2>
         <p>Estamos de desde las 8:00 hasta las 15:00</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d526.6932989794625!2d-55.99198716257858!3d-27.370841295563025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457971e30b2a55d%3A0x308ee7d8241c802e!2sPolo%20Tic%20Misiones!5e0!3m2!1sen!2sar!4v1635647912289!5m2!1sen!2sar"  width="100%" height="500vh" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d526.6932989794625!2d-55.99198716257858!3d-27.370841295563025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457971e30b2a55d%3A0x308ee7d8241c802e!2sPolo%20Tic%20Misiones!5e0!3m2!1sen!2sar!4v1635647912289!5m2!1sen!2sar" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
     <!-- footer -->

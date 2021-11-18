@@ -25,6 +25,10 @@
     src: url(fonts/louis_george_caf/Louis\ George\ Cafe\ Italic.ttf);
 }
 
+.violeta{
+    background-color: #e5d4ed;
+}
+
 /* block label */
 
 body{
