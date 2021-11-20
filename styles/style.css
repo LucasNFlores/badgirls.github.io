@@ -106,6 +106,60 @@
   border-radius: 30px;
 }
 
+.index .container__employes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.index .container__employes h2 {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: subtitulos;
+  text-align: center;
+  font-size: 8vh;
+}
+
+.index .container__employes .employes__column {
+  width: 30%;
+  padding-right: auto;
+  padding-left: auto;
+  margin-bottom: 100px;
+  clear: both;
+}
+
+.index .container__employes .employes__column .employes_img {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 100%;
+}
+
+.index .container__employes .employes__column .employes__name {
+  color: #4e014e;
+  font-size: 2vmax;
+  font-family: mostery;
+  text-align: center;
+  margin-bottom: 2vh;
+  margin-top: 3vh;
+}
+
+.index .container__employes .employes__column .employes__phrase {
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 60%;
+  text-align: center;
+}
+
 .body__nosotros {
 }
 
