@@ -8,6 +8,104 @@
   height: 4vmax;
 }
 
+.index .fondo {
+  background-image: url(/imagenes/cabina-estetica.webp);
+  background-color: beige;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 1vh;
+}
+
+.index .fondo .landsection {
+  padding: 12.5%;
+}
+
+.index .fondo .landsection .landsection__title {
+  font-size: 20vw;
+}
+
+.index .container__services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 7vh;
+}
+
+.index .container__services .explain__services {
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.index .container__services h2 {
+  padding: auto;
+  text-align: center;
+  color: #3b0b3b;
+  font-family: subtitulos;
+  font-size: 5vw;
+  text-align: center;
+}
+
+.index .container__services p {
+  text-align: center;
+}
+
+.index .container__services .carousel-font {
+  font-family: mostery;
+  font-size: 5vh;
+  font-weight: 600;
+  color: #311939;
+}
+
+.index .container__asi_trabajamos {
+  max-height: 70vh;
+  display: inline;
+  background: #f0e2ff;
+}
+
+.index .container__asi_trabajamos h2 {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background: inherit;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.index .container__asi_trabajamos p {
+  background: inherit;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2vh;
+  margin-bottom: 0px;
+}
+
+.index .container__asi_trabajamos .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  background: inherit;
+}
+
+.index .container__asi_trabajamos .videoWrapper iframe {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  border-radius: 30px;
+}
+
 .body__nosotros {
 }
 
@@ -69,22 +167,21 @@
   width: 100%;
 }
 
+@media screen and (min-width: 700px) {
+  .body__nosotros .valor .valorimg__container img {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2vh;
+    border-radius: 12px;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .body__nosotros main h1 {
     font-size: 8rem;
-    margin-top: 4vh;
-    margin-bottom: 15vh;
-  }
-  .body__nosotros main .historia__container {
-    margin-top: 5vh;
-  }
-  .body__nosotros main .historia__container h2 {
-    font-size: 3rem;
-    margin-bottom: 3vh;
-  }
-  .body__nosotros main .historia__container p {
-    margin: 2%;
-    font-size: 1.2rem;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
   }
   .body__nosotros main h2 {
     width: 100%;
@@ -93,8 +190,17 @@
     font-family: louisGorge;
     margin-bottom: 0px;
   }
-  .body__nosotros main h1 {
+  .body__nosotros main .historia__container {
+    margin-top: 5vh;
+  }
+  .body__nosotros main .historia__container h2 {
+    font-size: 3rem;
+    margin-top: 2%;
     margin-bottom: 3vh;
+  }
+  .body__nosotros main .historia__container p {
+    margin: 2%;
+    font-size: 1.2rem;
   }
   .body__nosotros main .valor {
     padding-left: 3vw;
@@ -107,12 +213,20 @@
   }
   .body__nosotros main .valor__descripcion {
     margin: 2.7rem;
+    margin-left: 0px;
     border-color: #e5d4ed;
   }
   .body__nosotros main .valor__descripcion p {
     text-align: right;
     font-size: 1.2rem;
-    margin: 1vw;
+  }
+  .body__nosotros main .valorimg__container {
+    min-width: 50%;
+  }
+  .body__nosotros main .valorimg__container img {
+    padding-top: 2vh;
+    height: 300px;
+    width: 500px;
   }
 }
 
@@ -142,8 +256,7 @@
   }
 }
 
-.contacto .contacto__titulo {
-  font-size: 50px;
+.contacto .contacto__titulo h1 {
   margin-top: 6vh;
   margin-bottom: 6vh;
 }
@@ -164,5 +277,12 @@
   margin-bottom: 8vh;
   width: 100%;
   height: 50vh;
+}
+
+@media screen and (min-width: 1400px) {
+  .contacto .contacto__titulo h1 {
+    margin-top: 9vh;
+    margin-bottom: 9vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */

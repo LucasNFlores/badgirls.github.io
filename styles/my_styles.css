@@ -43,12 +43,6 @@ h1{
     /* margin-bottom: 20vh; */
 }
 
-/* h1{
-    @media (min-width: 1024px) {
-        margin-bottom: 20vh;
-    } 
-} */
-
 h3{
     color: rgb(59, 11, 59);
 }
@@ -76,50 +70,6 @@ main{
 }
 
 /* in line label */
-
-/* header */
-
-.header__container{
-    overflow: hidden;
-    width: 100%;
-    background-color: rgb(233, 213, 255);
-    display: flex;
-    justify-content: space-between;
-    height: 6vh;
-}
-
-.header_logo img{
-    height: 6vh;
-    width: 100px;
-}
-
-.logo{
-    height: 4vmax;
-}
-
-.sub{
-    display: flex;
-    justify-content: right;
-    flex-direction: row;
-}
-
-.sub li{
-    display: inline-block;
-    padding: 1vw;
-    border-right: solid 1px rgba(95, 158, 160, 0.308);
-    font-weight: 900;
-    justify-content: right;
-}
-
-header a{
-    color: #2f0a41;
-    font-size: 22px;
-    font-weight: 900;
-}
-
-header a:hover{
-    color: #2f0a4160;
-}
 
 
 /* footer */
@@ -231,7 +181,6 @@ footer{
 
 .landsection{
     padding: 12.5%;
-
 }
 
 .landsection_title{
@@ -248,16 +197,13 @@ footer{
     margin: auto;
     margin-bottom: 7vh;
 }
-
 .explain__services{
     width: 100%;
     flex-direction: column;
 }
-
 .container__services h2 {
     padding: auto;
     text-align: center;
-
     color: rgb(59, 11, 59);
     font-family: subtitulos;
     font-size: 5vw;
@@ -268,81 +214,7 @@ footer{
     text-align: center;
 }
 
-/* Mirar esta zona de grid
-este comentario lo estoy haciendo de esta
-fortma para ubicar facil la posicion
-BORRAR LUEGO DE CORREGIR ESTA PARTE */
-
-.grid__services{
-    margin: 30px auto;
-    display: grid;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    grid-template-columns: repeat(3, 25vw);
-    grid-template-rows: repeat(3, 13vw);
-}
-
-.grid__services img{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.service--principal{
-    grid-area: 1 / 1 / 3 / 3;
-    position: relative;   
-    width: 100%;
-}
-
-.service--secondary{
-    grid-area: 1 / 3 / 3 / 4;
-    position: relative;   
-    width: 100%;
-}
-
-.service--three{
-    grid-area: 3 / 1 / 4 / 2;
-    position: relative;   
-    width: 100%;
-}
-
-.service--four{
-    grid-area: 3 / 2 / 4 / 3;
-    position: relative;   
-    width: 100%;
-}
-
-.service--five{
-    grid-area: 3 / 3 / 4 / 4;
-    position: relative;   
-    width: 100%;
-}
 /* personalization img zone in services*/
-
-.grid__services h2{
-    font-family: Italianno, titulosOimportantes;
-    color:rgb(146, 86, 170);
-    position: absolute;
-    left: 12px;
-    top: 12px;
-    font-weight: 500;
-}
-
-.grid__services a:hover img{
-    filter: brightness(50%);
-}
-
-.grid__services a:hover h2{
-    color: rgb(233, 213, 255);
-    font-weight: 600;
-}
-
-.grid__services :hover{
-    background-blend-mode: darken;
-}
-
 /* carousel section */
 
 .carousel-font{
@@ -385,7 +257,6 @@ BORRAR LUEGO DE CORREGIR ESTA PARTE */
 	height: 0;
     background: inherit;
 }
-
 .videoWrapper iframe {
 	position: absolute;
 	top: 10%;
@@ -413,10 +284,8 @@ BORRAR LUEGO DE CORREGIR ESTA PARTE */
     font-family: subtitulos;
     text-align: center;
     font-size: 8vh;
-    
 }
 .employes_column {
-
     width:30%;
     padding-right: auto;
     padding-left: auto;
@@ -428,6 +297,7 @@ BORRAR LUEGO DE CORREGIR ESTA PARTE */
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    border-radius: 100%
 }
 
 .employes_name{
