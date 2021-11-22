@@ -25,15 +25,7 @@
     src: url(fonts/louis_george_caf/Louis\ George\ Cafe\ Italic.ttf);
 }
 
-.violeta{
-    background-color: #e5d4ed;
-}
-
 /* block label */
-
-body{
-    background-color: #e5d4ed;                
-}
 
 h1{
     color: rgb(146, 86, 170);
@@ -41,6 +33,11 @@ h1{
     text-align: center;
     font-family: Italianno, titulosOimportantes;
     /* margin-bottom: 20vh; */
+}
+
+h2{
+    font-family: subtitulos;
+
 }
 
 h3{
@@ -55,110 +52,11 @@ a{
     
 }
 
-a:visited{
-    color: color rgb(168, 0, 190);
-}
-
 p{
     font-family: louisGorge;
     font-size: medium;
 }
 
-main{
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-/* in line label */
-
-
-/* footer */
-
-footer{
-    width: 100%;
-    padding: 50px 0px;
-    background-image: url(./background-footer.svg);
-    background-size: cover;
-    
-    /*background-color: #d0f0f8;
-    -webkit-mask-image: url("../Images/background-footer.svg");
-    mask-image: url("../Images/background-footer.svg");
-    -webkit-mask-size: cover;
-    mask-size: cover;*/
-}
-
-.container__footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 10px;
-}
-
-.box__footer{
-    display: flex;
-    flex-direction: column;
-    padding: 60px;
-}
-
-.box__footer .logo img{
-    width: 110px;
-} 
-
-.box__footer .terms{
-    max-width: 350px;
-    margin-top: 20px;
-    font-weight: 500;
-    color: #7a7a7a;
-    font-size: 18px;
-}
-
-.box__footer h2{
-    margin-bottom: 30px;
-    font-size: 30px;
-    color: #343434;
-    font-family: cursive;
-    font-weight: 700;
-}
-
-.box__footer a{
-    margin-top: 10px;
-    color: #7a7a7a;
-    font-weight: 600;
-    
-}
-
-.box__footer a:hover{
-    opacity: 0.8;
-}
-
-.box__footer a .fab{
-    font-size: 20px;
-}
-
-.box__copyright{
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-    padding: 40px 0px;
-}
-
-.box__copyright p{
-    margin-top: 20px;
-    color: #7a7a7a;
-}
-
-.box__copyright hr{
-    border: none;
-    height: 1px;
-    background-color: #7a7a7a;
-}
-
-.box__copyright b{
-    margin-left: 10px;
-    color: #575757;
-}
 /* index */
 
 .subtitules{
@@ -167,249 +65,6 @@ footer{
     font-family: subtitulos;
     text-align: center;
 }
-
-    /* landsection */
-    
-.fondo{
-    background-image: url(/imagenes/cabina-estetica.webp);
-    background-color: beige;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 1vh;
-}
-
-.landsection{
-    padding: 12.5%;
-}
-
-.landsection_title{
-    font-size: 20vw;
-}
-
-    /* services section */
-
-.container__services{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    margin-bottom: 7vh;
-}
-.explain__services{
-    width: 100%;
-    flex-direction: column;
-}
-.container__services h2 {
-    padding: auto;
-    text-align: center;
-    color: rgb(59, 11, 59);
-    font-family: subtitulos;
-    font-size: 5vw;
-    text-align: center;
-}
-
-.container__services p{
-    text-align: center;
-}
-
-/* personalization img zone in services*/
-/* carousel section */
-
-.carousel-font{
-    font-family: mostery;
-    font-size: 5vh;
-    font-weight: 600;
-    color: #311939;
-}
-
-    /* asi trabajamos section */
-
-        /* centrar iframe de video */
-
-.container__asi_trabajamos{
-    max-height: 70vh;
-    display: inline;
-    background: rgb(240, 226, 255); 
-}
-
-.container__asi_trabajamos h2{
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    background: inherit;
-    text-align: center;
-    margin-bottom: 0px;
-}
-
-.container__asi_trabajamos p{
-    background: inherit;
-    text-align: center;
-    font-weight: 600;
-    font-size: 2vh;
-    margin-bottom: 0px;
-}
-
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%;;
-	padding-top: 25px;
-	height: 0;
-    background: inherit;
-}
-.videoWrapper iframe {
-	position: absolute;
-	top: 10%;
-	left: 10%;
-	width: 80%;
-	height: 80%;
-    border-radius: 30px;
-}
-
-    /* employes section */ 
-
-.container__employes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 10px;
-}
-
-.container__employes h2{
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 20px; 
-    font-family: subtitulos;
-    text-align: center;
-    font-size: 8vh;
-}
-.employes_column {
-    width:30%;
-    padding-right: auto;
-    padding-left: auto;
-    margin-bottom: 100px;
-    clear: both;
-}
-
-.employes_img{
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 100%
-}
-
-.employes_name{
-    color: rgb(78, 1, 78);
-    font-size: 2vmax;
-    font-family: mostery;
-    text-align: center;
-    margin-bottom: 2vh;
-    margin-top: 3vh;
-}
-
-.employes_phrase{
-    margin-left: 20%;
-    margin-right: 20%;
-    max-width: 60%;
-    text-align: center;
-}
-
-/* servicios.html */
-
-.container__services-page{
-    width: 100%;
-}
-
-.container__services-page h1{
-    margin: 40px;
-}
-.services__right--image{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: rgb(233, 213, 255);
-}
-
-.services__content--left{
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    margin: 50px;
-    margin-top: 0px;
-    padding-bottom: 40px;
-    align-items: flex-end; 
-    justify-content: space-around;
-    
-}
-
-.services__content--left h2{
-    font-family: subtitulos;
-    font-size: 5vmax;
-}
-
-.services__content--left p{
-    padding-bottom: 20px;
-    font-size: 20px;
-    text-align: right;
-}
-
-.services__right--image img{
-    display: flex;
-    width: auto;
-    width: 50vw;
-}
-
-.content__button{
-    font-size: 20px;
-    border-radius: 8px;
-}
-
-.content__button a{
-    color: black;
-    background-color: rgba(255, 238, 255, 0.644);
-}
-
-/* content rigth */
-
-.services__left--image{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: rgb(233, 213, 255);
-}
-
-.services__left--image img{
-    display: flex;
-    width: auto;
-    width: 50vw;
-}
-
-.services__content--right{
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    margin: 50px;
-    margin-top: 0px;
-    padding-bottom: 40px;
-    align-items: flex-start; 
-    justify-content: space-around;
-    
-}
-
-.services__content--right h2{
-    font-family: subtitulos;
-    font-size: 5vmax;
-}
-
-.services__content--right p{
-    padding-bottom: 20px;
-    font-size: 20px;
-    text-align: left;
-}
-
-/* contacto.html */
 
 /* sobre_nosototros.html */
 

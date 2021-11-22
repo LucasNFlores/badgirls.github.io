@@ -4,38 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <meta name="keywords" content="estetica, belleza, cuidado de la piel, ecologico, buen precio, Posadas, Misiones, Argentina">
     <meta name="description" content="Bad girls sercicios - tratamientos de belleza, como tratamientos faciales, masajes, depilación, maquillaje, masajes, pedicura y manicura">
     <title>Bad Girls - Servicios</title>
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./styles/my_styles.css">
-
+    <!-- <link rel="stylesheet" href="./styles/my_styles.css"> -->
+    <link rel="stylesheet" href="./styles/style.css">
 
     <script src="https://kit.fontawesome.com/4ccb7498e2.js" crossorigin="anonymous"></script>
 </head>
+
 
 <body>
 <!-- header zone -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light violeta">
         <div class="container-fluid " >
+            <a class="navbar-brand" href="./index.html">Bad Girls</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                    </li>
                     <li class="nav-item dropdown d-flex">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">Servicios</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li><a class="dropdown-item" href="servicios.html">Tratamientos de belleza</a></li>
-                            <li><a class="dropdown-item" href="servicios.html">Maquillaje</a></li>
-                            <li><a class="dropdown-item" href="servicios.html">Masajes</a></li>
-                            <li><a class="dropdown-item" href="servicios.html">Pedicura</a></li>
-                            <li><a class="dropdown-item" href="servicios.html">Manicura</a></li>
+                            <li><a class="dropdown-item" href="servicios.html#servicio1">Tratamientos de belleza</a></li>
+                            <li><a class="dropdown-item" href="servicios.html#servicio2">Maquillaje</a></li>
+                            <li><a class="dropdown-item" href="servicios.html#servicio3">Masajes</a></li>
+                            <li><a class="dropdown-item" href="servicios.html#servicio4">Pedicura</a></li>
+                            <li><a class="dropdown-item" href="servicios.html#servicio5">Manicura</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -48,68 +47,70 @@
             </div>
         </div>
     </nav>
-    
+
 <!-- services zone -->
-    <main class="container__services-page">
+    <main class="servicios">
         <h1>Servicios</h1>
 
-        <div class="services__right--image">
-            <div class="services__content--left" id="servicio1">
-                <h2>servicio #1</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus nihil error rerum vitae voluptatem explicabo quod, architecto rem veritatis repudiandae. Illo autem sunt, repellat corporis possimus quisquam alias aliquam?</p>
+        <div class="servicios__container">
+            <div class="servicio__descripcion" id="servicio1">
+                <h2>Tratamientos de belleza</h2>
+                <p>La piel del rostro es la más fina y delicada de todo el cuerpo. Tratamientos faciales para combatir las imperfecciones y flacidez o realizar una limpieza profunda. Disfruta de nuestra variedad de tratamientos profesionales adaptados de forma personalizada, que te permitirán lucir una piel perfecta, estética y saludable.</p>
                 <button class="content__button"><a href="contacto.html">Contacto</a></button>
             </div>
-            <div>
-                <img src=".\imagenes\relleno.jpg" alt="imagen de servicio #1">
+
+            <div class="servicio__img--container">
+                <img src=".\imagenes\relleno.jpg" alt="Tratamientos de belleza">
             </div>
         </div>
 
-        <div class="services__left--image" id="servicio2">
-            <div>
-                <img src=".\imagenes\relleno.jpg" alt="imagen de servicio #1">
-            </div>
-            <div class="services__content--right">
-                <h2>servicio #2</h2>
+        <div class="servicios__container--left" id="servicio2">
+            <div class="servicio__descripcion">
+                <h2>Maquillaje</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus nihil error rerum vitae voluptatem explicabo quod, architecto rem veritatis repudiandae. Illo autem sunt, repellat corporis possimus quisquam alias aliquam?</p>
                 <button class="content__button"><a href="contacto.html">Contacto</a></button>
+            </div>
+
+            <div class="servicio__img--container">
+                <img src=".\imagenes\relleno.jpg" alt="Maquillaje">
             </div>
         </div>
 
-        <div class="services__right--image" id="servicio3">
-            <div class="services__content--left">
-                <h2>servicio #3</h2>
+        <div class="servicios__container" id="servicio3">
+            <div class="servicio__descripcion">
+                <h2>Masajes</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus nihil error rerum vitae voluptatem explicabo quod, architecto rem veritatis repudiandae. Illo autem sunt, repellat corporis possimus quisquam alias aliquam?</p>
                 <button class="content__button"><a href="contacto.html">Contacto</a></button>
             </div>
-            <div>
-                <img src=".\imagenes\relleno.jpg" alt="imagen de servicio #1">
+            <div class="servicio__img--container">
+                <img src=".\imagenes\relleno.jpg" alt="Masajes">
             </div>
         </div>
 
-        <div class="services__left--image" id="servicio4">
-            <div>
-                <img src=".\imagenes\relleno.jpg" alt="imagen de servicio #1">
-            </div>
-            <div class="services__content--right">
-                <h2>servicio #4</h2>
+        <div class="servicios__container--left" id="servicio4">
+            <div class="servicio__descripcion">
+                <h2>Pedicura</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus nihil error rerum vitae voluptatem explicabo quod, architecto rem veritatis repudiandae. Illo autem sunt, repellat corporis possimus quisquam alias aliquam?</p>
                 <button class="content__button"><a href="contacto.html">Contacto</a></button>
+            </div>
+            <div class="servicio__img--container">
+                <img src=".\imagenes\relleno.jpg" alt="Pedicura">
             </div>
         </div>
 
-        <div class="services__right--image" id="servicio5">
-            <div class="services__content--left">
-                <h2>servicio #5</h2>
+        <div class="servicios__container last" id="servicio5">
+            <div class="servicio__descripcion">
+                <h2>Manicura</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus nihil error rerum vitae voluptatem explicabo quod, architecto rem veritatis repudiandae. Illo autem sunt, repellat corporis possimus quisquam alias aliquam?</p>
                 <button class="content__button"><a href="contacto.html">Contacto</a></button>
             </div>
-            <div>
-                <img src=".\imagenes\relleno.jpg" alt="imagen de servicio #1">
+            <div class="servicio__img--container">
+                <img src=".\imagenes\relleno.jpg" alt="Manicura">
             </div>
         </div>
     </main>
 
-<!-- footer zone -->
+<!-- footer -->
     <footer>
         <div class="container__footer">
             <div class="box__footer">
@@ -134,13 +135,15 @@
                 <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram-square"></i> Instagram</a>
                 <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i>YouTube</a>
             </div>
-
         </div>
+
         <div class="box__copyright">
             <hr>
             <p>Página creada por<a href="https://www.linkedin.com/in/lucas-nicol%C3%A1s-flores-20b4681b5/"><b>Lucas Flores</b></a></p>
         </div>
-    </footer>  
-    
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
